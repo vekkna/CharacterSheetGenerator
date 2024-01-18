@@ -1,11 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="styles/styles.css">
 </head>
+
 <body>
     <h1>Character Creator</h1>
     <form action="">
@@ -35,10 +37,10 @@
         <input type="color" name="" id="">
         <br>
         <label for="" class="heading">Stats:</label>
-  
-                <label for="">Strength</label>
-                <input type="number" name="" id="" min="1" max="18">
-<br>
+
+        <label for="">Strength</label>
+        <input type="number" name="" id="" min="1" max="18">
+        <br>
         <label for="" class="heading">Alignment</label>
         <br>
         <label for="lawfulRB">Lawful</label>
@@ -56,13 +58,27 @@
         <br>
         <button type="button" onclick="createCharacter()">Create!</button>
     </form>
-    
+
     <div id="outputsheet">
         <h1>Character Sheet</h1>
         <h2>Name:</h2>
         <p id="characterNameOutput"></p>
     </div>
 
+    <div class="sketchfab-embed-wrapper"> <iframe title="Corridors" frameborder="0" allowfullscreen
+            mozallowfullscreen="true" webkitallowfullscreen="true" allow="autoplay; fullscreen; xr-spatial-tracking"
+            xr-spatial-tracking execution-while-out-of-viewport execution-while-not-rendered web-share
+            src="https://sketchfab.com/models/ceafb46b46ce424fa8acb92db78c8358/embed"> </iframe>
+        <p style="font-size: 13px; font-weight: normal; margin: 5px; color: #4A4A4A;"> <a
+                href="https://sketchfab.com/3d-models/corridors-ceafb46b46ce424fa8acb92db78c8358?utm_medium=embed&utm_campaign=share-popup&utm_content=ceafb46b46ce424fa8acb92db78c8358"
+                target="_blank" rel="nofollow" style="font-weight: bold; color: #1CAAD9;"> Corridors </a> by <a
+                href="https://sketchfab.com/neilccrowley?utm_medium=embed&utm_campaign=share-popup&utm_content=ceafb46b46ce424fa8acb92db78c8358"
+                target="_blank" rel="nofollow" style="font-weight: bold; color: #1CAAD9;"> neilcrowley </a> on <a
+                href="https://sketchfab.com?utm_medium=embed&utm_campaign=share-popup&utm_content=ceafb46b46ce424fa8acb92db78c8358"
+                target="_blank" rel="nofollow" style="font-weight: bold; color: #1CAAD9;">Sketchfab</a></p>
+    </div>
+
     <script src="code/code.js"></script>
 </body>
+
 </html>
