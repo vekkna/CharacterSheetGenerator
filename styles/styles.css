@@ -1,0 +1,29 @@
+body{
+    background-color: aliceblue;
+}
+
+form{
+    background-color:lemonchiffon;
+    border-style: solid;
+    border-radius: 5px;
+    padding: 10px;
+    box-shadow: 10px 10px 5px grey;
+}
+
+label{
+    display: inline-block;
+}
+
+.heading{
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+input[type="text"],
+input[type="number"],
+select,
+input[type="file"] {
+    padding: 2px;
+    border: 2px solid #ddd;
+    border-radius: 4px;
+}
